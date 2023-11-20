@@ -12,17 +12,22 @@
 @font-face {
     font-family: Gilroy;
     src: url(/assets/font/Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf);
-
+}
+@font-face {
+    font-family: Gilory-semibold;
+    src: url(../font/Gilroy-FREE/Gilroy-FREE/Gilroy-SemiBold.ttf);
 }
 
 .gilroy {
     font-family: Gilroy;
 }
+.gilroy-semibold {
+    font-family: Gilory-semibold;
+}
 
 .KonexyPersonalUse {
     font-family: Konexy Personal Use;
 }
-
 
 .fixer1 {
     display: none;
@@ -42,18 +47,18 @@
     .nav-bg {
         background-color: #40024B;
         border-radius: 37px;
-        transform: translateY(-10px) translate3d(0px, 0px, 12px) rotate3d(0deg, 0deg, 90deg);
+        transform: translateY(-10px);
     }
 
     .nav-2 {
         width: 46px !important;
         height: 46px !important;
     }
-    
+
     .menubar {
         left: -100%;
     }
-
+    
     .left-0 {
         left: 0;
     }
