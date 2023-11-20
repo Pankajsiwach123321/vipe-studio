@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .showme {
+        @apply left-0
+    }
+
+    .over-flow {
+        @apply overflow-y-hidden
+    }
+
+    .fixer1 {
+        @apply hidden
+    }
+
+    .fixer2 {
+        @apply translate-x-[2px] translate-y-[7px] rotate-[48deg]
+    }
+    .fixer3 {
+    @apply w-[21px] translate-x-[1px] translate-y-[-10px] -rotate-45}
+
+   
+
+    /* npx tailwindcss -i ./src/input.css -o ./output.css --watch */
+}

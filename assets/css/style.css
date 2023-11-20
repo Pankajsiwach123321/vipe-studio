@@ -5,9 +5,6 @@
     src: url(/assets/font/konexy-personal-use-cufonfonts/KonexyPersonalUse.otf);
 }
 
-.inter {
-    font-family: Inter;
-}
 
 @font-face {
     font-family: Gilroy;
@@ -16,6 +13,9 @@
 @font-face {
     font-family: Gilory-semibold;
     src: url(../font/Gilroy-FREE/Gilroy-FREE/Gilroy-SemiBold.ttf);
+}
+.inter {
+    font-family: Inter;
 }
 
 .gilroy {
@@ -27,43 +27,4 @@
 
 .KonexyPersonalUse {
     font-family: Konexy Personal Use;
-}
-
-.fixer1 {
-    display: none;
-}
-
-.fixer2 {
-    transform: rotate(48deg) translate(18px, 14px);
-    width: 21px !important;
-}
-
-.fixer3 {
-    transform: rotate(-45deg) translate(16px, -14px);
-    width: 21px !important;
-}
-
-@media (max-width:1280px) {
-    .nav-bg {
-        background-color: #40024B;
-        border-radius: 37px;
-        transform: translateY(-10px);
-    }
-
-    .nav-2 {
-        width: 46px !important;
-        height: 46px !important;
-    }
-
-    .menubar {
-        left: -100%;
-    }
-    
-    .left-0 {
-        left: 0;
-    }
-
-    .over-flow {
-        overflow-y: hidden;
-    }
 }
